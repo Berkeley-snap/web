@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <section id="header" class="appear">
+  </section>
+  <div class="signin"><p class="navbar-text pull-right">Signed in as <a href="#" class="navbar-link">Guest</a></p></div>
+    <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+       <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="fa fa-bars color-white"></span>
+          </button>
+          <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;"><a href="http://snap.berkeley.edu"><img src="img/logo.png" width="140px"/></a>
+          </a></h1>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right" data-0="margin-top:20px;" data-300="margin-top:5px;">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#section-about">About</a></li>
+            <li><a href="#section-create">Create</a></li>
+            <li><a href="#section-share">Share</a></li>
+            <li><a href="#section-contact">Contact</a></li>
+            <li><a href="#section-help">Help</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+    <section class="loginform">  
+    <form name="login" action="index_submit" method="get" accept-charset="utf-8">  
+    <ul class="loginlst">  
+        <li><label for="usermail">Email</label>  
+        <input type="email" id="user" placeholder="enter your email" required></li>  
+        <li><label for="password">Password</label>  
+        <input type="password" id="pw" placeholder="password" required></li>  
+        <li>  
+         <button type="submit" class="btn btn-info">Submit</button>
+        </li>  
+      </ul>  
+    </form>  
+  </section> 
+  <section class="join">
+    <ul class="joinlst">
+    <li> Join SNAP!:) </li>
+    <li>
+      <button type="button" class="btn btn-warning">Warning</button>
+    </li>
+    </ul>
+  </section>
+  </body>
+</html>
