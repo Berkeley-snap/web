@@ -1,6 +1,7 @@
 body{
 	font-family: 'Lato', sans-serif;
 	background: #f7f7f7;
+	overflow: hidden;
 }
 .navbar {
 	line-height: 100px;
@@ -13,7 +14,9 @@ body{
 	position: relative;
 }
 .signin {
-	position: relative;
+	right: 10px;
+	float: right;
+	position: fixed;
 	height: 20px;
 }
 #introduction {
@@ -24,7 +27,7 @@ body{
 #grid {
 	clear:both;
 	height: 250px;
-	margin: 0 
+	margin: 0;
 	position:relative;
 }
 /*  GROUPING  */
@@ -56,11 +59,24 @@ body{
 /*=========================
   Login
  ================= */
-.loginform {
+.sideimg, 
+.loginform, .join {
+	float:left;
 	margin:250px auto; padding:0px;
-	height: 300pxs;
-	background-color: #F5FFFA;
+	height: 300px;
 	width: 300px;
+}
+
+.imgtwo {
+	margin-left: 30px;
+	top: 300px;
+	right: 210px;
+	position: absolute;
+	-webkit-filter: blur(3px);
+	 -moz-filter: blur(3px);
+	 -o-filter: blur(3px);
+	 -ms-filter: blur(3px);
+	 filter: blur(3px);
 }
 li {
 	list-style-type: none;
@@ -73,18 +89,28 @@ li {
     color: #668B8B;
     margin-bottom: 20px;
 }
-.join {
+/*.join {
+	display: inline-block;
+	margin:250px auto; padding:0px;
+
 	
-}
+}*/
 
 /*=========================
   Footer
  ================= */
 
 #footer {
-	background: #242424;
-	margin: 0 auto -155px;
-	margin-bottom: -100px;
+	width:33%;
+	right: 33%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	text-align: center;
+}
+
+#footer.navbar {
+	float: right;
 }
 
 section#footer .copyright {
