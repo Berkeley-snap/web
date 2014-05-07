@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type = "text/css" rel = "stylesheet" href="style.css"/>
+	<title>Forums</title>
+</head>
+<style>
+a:link {color:#FF00FF;}    /* unvisited link */
+a:visited {color:#00FF00;} /* visited link */
+a:hover {color:#FF00FF;}   /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+p{
+background-color:white;
+}
+p.margin {
+margin-top:2px;
+margin-bottom:100px;
+margin-right:25px;
+margin-left:50px;
+}
+
+</style>
+<body>
+	<div id = "nav">
+		<div id ="nav_wrapper"></div>
+			<ul>
+				<li><a href = "http://snap.berkeley.edu/">Home</a></li><li>
+				<a href = "web.html">About</a></li><li>
+				<a href = "create.html">Create</a></li><li>
+				<a href = "index.html">Share</a></li><li>
+				<a href = "contact.html">Contact</a></li><li>
+				<a href = "help.html">Help</a></li><li>
+				<a href = "account.html">My Account</a>
+					<ul>
+						<li><a href = "#">Log in/Register</a></li>
+						<li><a href= "#">My Profile</a>	</li>
+					</ul>
+
+			</ul>
+		</div>
+	</div>
+	<div id = "forum">
+
+<p><a href="http://snap.berkeley.edu/"><img src="http://snap.berkeley.edu/Logo5.png" width="140" height="90" alt="SNAP logo"></a></p>
+
+
+
+
+<h2>About</h2>
+<p><em>  <p class="margin"> SNAP! (formerly BYOB) is a visual, drag-and-drop programming language. It is an extended reimplementation of <a href="http://www.w3schools.com" target="_blank">Scratch</a>  (a project of the Lifelong Kindergarten Group at the MIT Media Lab) that allows you to Build Your Own Blocks. It also features first class lists, first class procedures, and continuations. These added capabilities make it suitable for a serious introduction to computer science for high school or college students.
+
+SNAP! runs in your browser. It is implemented using Javascript, which is designed to limit the ability of browser-based software to affect your computer, so it's safe to run even other people's projects, even if you don't trust our competence or good intentions.
+
+SNAP! is presented by the University of California at Berkeley. It was developed by Jens Mönig at MioSoft Corporation, with design input and documentation by Brian Harvey at Berkeley, and contributions by students at Berkeley and elsewhere.
+
+This material is based partly upon work supported by the National Science Foundation under Grant No. 1138596. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</em></p>
+
+
+
+</body>
+
+</html>
